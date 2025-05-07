@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRUE-See Case Study - UX Design Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="public/true-see/topnav_logo.png" alt="Logo" class="img-fluid" style="max-width: 150px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="public/Martin_Tejeda_Resume.pdf" target="_blank"
+                            rel="noopener">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Floating Navigation -->
+    <div class="toggle-nav">
+        <i class="bi bi-chevron-right"></i>
+        <span class="toggle-label ms-2">Sections</span>
+    </div>
+    <nav class="floating-nav">
+        <a href="#overview" class="active">
+            <i class="bi bi-house"></i> Overview
+        </a>
+        <a href="#opportunity">
+            <i class="bi bi-lightbulb"></i> Opportunity
+        </a>
+        <a href="#research">
+            <i class="bi bi-search"></i> Research & Insights
+        </a>
+        <a href="#design">
+            <i class="bi bi-easel"></i> Design & Prototyping
+        </a>
+        <a href="#testing">
+            <i class="bi bi-people"></i> User Testing
+        </a>
+        <a href="#results">
+            <i class="bi bi-graph-up"></i> Results & Outcomes
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5 mt-5"
+        style="background-color: var(--dark-purple); color: white; position: relative; overflow: hidden;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <img src="public/true-see/ts_logo.png" alt="TRUE-See Logo" class="img-fluid mb-3"
+                        style="max-width: 400px;">
+                    <h3 class="display-9 fw-bold mb-4 text-white">Medical image capture & analysis</h3>
+                </div>
+            </div>
+        </div>
+        <img src="public/top_curves.png" alt="Decorative curves" class="top-curves-hero" />
+        <img src="public/bottom_curves.png" alt="Decorative curves bottom" class="bottom-curves-hero" />
+    </section>
+
+    <!-- Anonymization Warning Banner -->
+    <section id="anonymization-warning" class="mb-0 pb-0">
+        <div class="alert alert-warning alert-dismissible fade show text-center mb-0" role="alert"
+            style="border-radius: 0;">
+            <strong>Patient identities have been anonymized for this case study.</strong>
+        </div>
+    </section>
+
+    <!-- Project Overview -->
+    <section id="overview" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h2 class="mb-3 text-uppercase text-muted fs-6">Overview</h2>
+                    <h1 class="fw-bold mb-3">TRUE-See is a healthtech startup building smarter tools for <span
+                            class="text-primary">capturing, sharing & analyzing clinical photos.</span></h1>
+                    <hr>
+                    <h6 class="fw-bold mt-4">Project Summary</h6>
+                    <p>As the sole designer, I led the end-to-end UX design & strategy of our a net-new feature to help
+                        physicians capture, organize, and share
+                        clinical images — all
+                        while meeting HIPAA compliance and speeding up documentation.</p>
+                    <p>Additionally, I created Design Ops processes to get everyone involved so I could effectively get
+                        feedback, set up a backlog, and talk about design in a step-by-step process, instead of just
+                        asking me to make it look pretty.</p>
+                    <h6 class="fw-bold mt-4">Responsibilities</h6>
+                    <ul>
+                        <li>UX Research + Competitive Analysis</li>
+                        <li>Workflow Mapping + Information Architecture</li>
+                        <li>Mid/High-Fidelity UI in Figma</li>
+                        <li>Bootstrap Design System</li>
+                        <li>Dev Collaboration + QA</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img src="public/true-see/hero.png" class="img-fluid mb-3" alt="TRUE-See App Screens">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Structure -->
+    <section id="team" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Team & Collaboration</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="fw-bold mb-3">Our collaboration included an <span class="text-primary">in-house
+                            team</span>, an outsourced <span class="text-primary">
+                            branding team</span>, and an outsourced <span class="text-primary">product team</span>.</h3>
+                    <ul>
+                        <li>In-house: CEO, CPO, Onboarding Specialist</li>
+                        <li>Branding: 1 Brand Designer</li>
+                        <li>Product: 1 Product Designer (me), 1 Product Manager, 2 Engineering Architects, 4 Engineer
+                            ICs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-12 text-center">
+                    <img src="public/true-see/team.png" class="img-fluid" alt="Team Structure Diagram">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EHR Agnostic Opportunity Section -->
+    <section id="opportunity" class="py-5" style="background-color: var(--purple); color: white;">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h3 class="fw-bold mb-4">
+                        TRUE-See saw an opportunity to expand user adoption of the app by detaching from the existing
+                        EHR integration into an <span style="color: var(--orange);">EHR-agnostic</span> application.
+                    </h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="fw-bold" style="font-size:2.5rem;">22</div>
+                    <div class="mt-2">Hospitals & private<br>practices onboarded</div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="fw-bold" style="font-size:2.5rem;">~115</div>
+                    <div class="mt-2">Photos taken daily</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fw-bold" style="font-size:2.5rem;">59%</div>
+                    <div class="mt-2">Took a photo<br>during a session</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EHR Integration Comparison Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Old Workflow (Altera-specific) -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h2 class="mb-4 text-uppercase text-muted fs-6">Current Workflow</h2>
+
+                    <h3 class="fw-bold mb-4">TRUE-See partnered with an EHR vendor, to
+                        embed its photo-taking features in clinical workflows.</h3>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><span>&#x26D4;</span> Custom APIs to
+                            integrate with Altera (API not bidirectional)</li>
+                        <li class="mb-2"><span>&#x26D4;</span> Locked into
+                            limited distribution</li>
+                        <li class="mb-2"><span>&#x26D4;</span> Poor
+                            photo-taking & analyzing UX</li>
+                    </ul>
+                    <blockquote class="blockquote mb-2" style="font-size: 1rem; color: #444;">
+                        <em>"Yeah I don't like how I have to update my patient list in [EHR] first to see it in
+                            TRUE-See"</em>
+                        <footer class="blockquote-footer mt-1">Existing TRUE-See user</footer>
+                    </blockquote>
+                    <div class="mt-4">
+                        <img src="public/true-see/altera_workflow.png" alt="Altera Workflow Diagram" class="img-fluid">
+                    </div>
+                </div>
+                <!-- New Workflow (EHR-agnostic) -->
+                <div class="col-lg-6">
+                    <h2 class="mb-4 text-uppercase text-muted fs-6">Product Vision</h2>
+                    <h3 class="fw-bold mb-4">Our vision was to create an <span class="text-primary">EHR-agnostic</span>
+                        workflow.
+                    </h3>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><span>&#x2705;</span> One-to-many
+                            model</li>
+                        <li class="mb-2"><span>&#x2705;</span> Country-wide
+                            distribution</li>
+                        <li class="mb-2"><span>&#x2705;</span> Streamlined
+                            photo-taking & analyzing UX</li>
+                    </ul>
+                    <div class="mb-4">
+                        <img src="public/true-see/agnostic_workflow.png" alt="EHR-Agnostic Workflow Diagram"
+                            class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personas & Research -->
+    <section id="research" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Personas & Research</h2>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="fw-bold mb-4">I planned and conducted <span class="text-primary">8 remote
+                            interviews</span> to understand the purpose,
+                        opportunity, and challenges with creating an EHR-agnostic photo-taking experience.
+                    </h3>
+                    <div class="row mt-4">
+                        <div class="col-md-4 text-center">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" class="rounded-circle mb-2"
+                                width="80" height="80" alt="Stakeholder">
+                            <h6 class="fw-bold">2 Internal Stakeholders</h6>
+                            <small>Sample Questions:<br>What would make this feature "successful"?<br>How are physicians
+                                using the current version?</small>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-2"
+                                width="80" height="80" alt="Onboarding Specialist">
+                            <h6 class="fw-bold">1 Onboarding Specialist</h6>
+                            <small>Sample Questions:<br>Where do most users have trouble during onboarding?<br>Which
+                                steps require additional assistance?</small>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" class="rounded-circle mb-2"
+                                width="80" height="80" alt="Physician">
+                            <h6 class="fw-bold">5 Physicians (Current users)</h6>
+                            <small>Sample Questions:<br>What slows you down when taking clinical photos?<br>Do you trust
+                                your current method?</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Persona: Nurses Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Research & Discovery</h2>
+
+            <h3 class="fw-bold mb-4">Based on the interviews, I discovered a <span class="text-primary">second end
+                    user</span> involved in the
+                photo-taking & sharing journey: <span class="text-primary">Nurses.</span></h3>
+            <div class="row g-4 align-items-stretch">
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm" style="background: var(--dark-purple); color: #fff;">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-5 text-center p-0 d-flex align-items-end justify-content-start">
+                                <img src="public/true-see/dr_stevenson.png" alt="Dr. Stevenson"
+                                    class="img-fluid rounded"
+                                    style="max-height: 300px; object-fit: cover; margin: 0; padding-right: 0;">
+                            </div>
+                            <div class="col-md-7 p-4">
+                                <h4 class="fw-bold mb-1">Dr. Stevenson</h4>
+                                <div class="mb-2">Infectious Disease Specialist</div>
+                                <div class="mb-2"><strong>Wants To</strong></div>
+                                <ul class="mb-2">
+                                    <li>Help patients diagnose their wounds</li>
+                                    <li>Communicate with other specialists</li>
+                                </ul>
+                                <div class="mb-2"><strong>Key Insights</strong></div>
+                                <ul>
+                                    <li>Spend most of her time writing SOAP notes & updating the EHR</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 shadow-sm" style="background: var(--dark-purple); color: #fff;">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-5 text-center p-0 d-flex align-items-center">
+                                <img src="public/true-see/nurse_kim.png" alt="Nurse Kim" class="img-fluid rounded"
+                                    style="max-height: 300px; object-fit: contain; margin: 0;">
+                            </div>
+                            <div class="col-md-7 p-4">
+                                <h4 class="fw-bold mb-1">Nurse Kim</h4>
+                                <div class="mb-2">Nurse Practitioner</div>
+                                <div class="mb-2"><strong>Wants To</strong></div>
+                                <ul class="mb-2">
+                                    <li>Document new patient wounds</li>
+                                    <li>Effectively go from patient to patient</li>
+                                </ul>
+                                <div class="mb-2"><strong>Key Insights</strong></div>
+                                <ul>
+                                    <li>Spend most of her time talking to patients & documenting their visit</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Key Insights Section -->
+    <section id="insights" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Key Insights</h2>
+            <div class="row">
+                <div class="col-lg-7">
+                    <h3 class="fw-bold mb-4">Manual photo sharing was faster but <span class="text-primary">increased
+                            HIPAA risks.</span></h3>
+                    <ol class="mt-3">
+                        <li>Doctors were more willing to <strong>bypass the TRUE-See app</strong> and use their
+                            smartphones to take & share photos, creating HIPAA risks and extra documentation work.<br>
+                            <small>(This also brought more clarity to the 59% of users who opened the app & took
+                                photos.)</small>
+                        </li>
+                        <li class="mt-2"><strong>Rapid photo-taking was impossible</strong> during high-volume days.
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-5">
+                    <div class="mb-3">
+                        <div class="alert alert-warning"><em>I talk to the same two specialists daily, so it's easier
+                                for me to just Airdrop photos to her.</em><br><span class="fw-bold">Dr. Stevenson</span>
+                        </div>
+                        <div class="alert alert-danger"><em>I email photos to myself to upload them to Epic, and they
+                                aren't organized in any particular order when they land there.</em><br><span
+                                class="fw-bold">Dr. Stevenson</span></div>
+                        <div class="alert alert-info"><em>I move room to room fairly quickly. I just change my gloves,
+                                but don't really have time for much else.</em><br><span class="fw-bold">Nurse Kim</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow & Pain Points Section -->
+    <section id="workflow" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Workflow & Pain Points</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">Current EHR workflows make photo capture and analysis <span
+                            class="text-primary">inefficient</span>.</h3>
+                    <ol class="mt-3 custom-numbered-list">
+                        <li>Sharing photos among doctors & specialists is highly valuable, especially in real-time.</li>
+                        <li>Having to re-take a photo that was misaligned takes up so much time, especially when nurses
+                            need to see many patients back-to-back.</li>
+                        <li>Analyzing photos is currently done using the "eyeball test" by doctors.</li>
+                        <li>Viewing two photos side-by-side is not possible with existing EHRs.</li>
+                    </ol>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="public/true-see/pain_points.png" class="img-fluid" alt="Workflow Diagram">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Strategy Section -->
+    <section id="design" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Product Strategy</h2>
+            <div class="mb-4">
+                <h3 class="fw-bold mb-4">First, I mapped out the experience of how photos could be <span
+                        class="text-primary">taken & assigned</span> to patients more efficiently.</h3>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-3">
+                        <img src="public/true-see/sketch_1.png" class="img-fluid rounded" alt="Sketch 1">
+                        <p class="mt-2 small text-muted">Camera GUI to assign photos on the spot</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="public/true-see/sketch_2.png" class="img-fluid rounded" alt="Sketch 2">
+                        <p class="mt-2 small text-muted">Preview Mode of a photo
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="public/true-see/sketch_3.png" class="img-fluid rounded" alt="Sketch 3">
+                        <p class="mt-2 small text-muted">Assigning photos to patients within the Camera</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="public/true-see/sketch_4.png" class="img-fluid rounded" alt="Sketch 4">
+                        <p class="mt-2 small text-muted">Red & green borders around the camera to help with photo
+                            alignment.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="fw-bold mb-4">Next, I mapped out the experience of how users could <span
+                        class="text-primary">share & analyze</span> photos after taking them.</h3>
+                <div class="row g-3 mt-2">
+                    <div class="col-md-3">
+                        <img src="public/true-see/sketch_5.png" class="img-fluid rounded" alt="Sketch 5">
+                        <p class="mt-2 small text-muted">Sharing a patient vs a single photo
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="public/true-see/sketch_6.png" class="img-fluid rounded" alt="Sketch 6">
+                        <p class="mt-2 small text-muted">Adding photos to an existing patient</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="public/true-see/sketch_7.png" class="img-fluid rounded" alt="Sketch 7">
+                        <p class="mt-2 small text-muted">Analyzing photos side-by-side</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Design Section -->
+    <section id="experience-design" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Experience Design</h2>
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h3 class="fw-bold mb-4">The developers and I <span class="text-primary">aligned on Bootstrap</span>
+                        very early on in the process.
+                    </h3>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 text-center">
+                    <img src="public/true-see/sketch_bundle.png" class="img-fluid" alt="Hand-drawn wireframes">
+                </div>
+                <div class="col-lg-2 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+                    <i class="bi bi-arrow-right" style="font-size: 3rem; color: var(--purple);"></i>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img src="public/true-see/bootstrap_ui.png" class="img-fluid" alt="Bootstrap UI Example">
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <h5 class="fw-bold">Why Bootstrap?</h5>
+                    <ul>
+                        <li>Both architects were already fluent in Bootstrap (10+ YOE each).</li>
+                        <li>Pre-built components like buttons, grids, and navs gave us a solid head start.</li>
+                        <li>Bootstrap had a robust UI Kit in Figma to match their implementation 1:1.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Cursor Contribution Section -->
+    <section class="py-5" style="background: var(--purple); color: #fff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="mb-4 text-uppercase text-white fs-6">Experience Design</h2>
+                    <h3 class="fw-bold mb-4">I used Cursor to <span style="color: var(--orange);">validate and prototype
+                        </span> my Bootstrap designs in real code.</h3>
+                    <ul class="fs-5 mb-4">
+                        <li>Catch layout gaps in the designs.</li>
+                        <li>Understand real behavior in-browser.</li>
+                        <li>Speed up dev handoff by referencing actual Bootstrap class names.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="public/true-see/cursor.png" class="img-fluid rounded shadow"
+                        alt="Cursor with Bootstrap code">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mid-Fidelity Design 1: Global Camera Tab -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Mid-Fidelity Design</h2>
+            <h3 class="fw-bold mb-4">Adding a global <span class="text-primary">Camera tab</span> made it possible to
+                instantly take patient photos.</h3>
+            <div class="row">
+                <div class="col-lg-10">
+                    <img src="public/true-see/midfi_1.png" class="img-fluid" alt="Global Camera Tab Design">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mid-Fidelity Design 2: Assign Photos -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Mid-Fidelity Design</h2>
+            <h3 class="fw-bold mb-4">Users are able to <span class="text-primary">assign photos</span> during or after
+                the photo session.</h3>
+            <div class="row">
+                <div class="col-lg-10">
+                    <img src="public/true-see/midfi_2.png" class="img-fluid" alt="Assign Photos Design">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mid-Fidelity Design 3: Photo Analytics -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Mid-Fidelity Design</h2>
+            <h3 class="fw-bold mb-4">Clicking on a patient's profile brings forward the <span class="text-primary">photo
+                    analytics</span>.</h3>
+            <div class="row">
+                <div class="col-lg-10">
+                    <img src="public/true-see/midfi_3.png" class="img-fluid" alt="Photo Analytics Design">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internal Discussions & UX Updates Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <h2 class="mb-4 text-uppercase text-muted fs-6">Experience Design</h2>
+                    <h3 class="fw-bold mb-4">Internal discussions led to further <span class="text-primary">UX
+                            updates</span> before conducting our usability tests.</h3>
+                    <ul class="custom-numbered-list">
+                        <li>Users need to be able to assign Patient AND Wound Type. Can't just be 1 click.</li>
+                        <li>We can't technically display wound info here. User has to save session first.</li>
+                        <li>Users need the ability to add notes immediately.</li>
+                        <li>Sharing might not be possible (or useful) without any data attached to the photo.</li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="mb-4 d-flex flex-row align-items-center justify-content-center">
+                        <img src="public/true-see/ux_update_before.png" class="img-fluid me-3" alt="UX Update Before"
+                            style="max-width: 45%;">
+                        <div class="mx-3"><i class="bi bi-arrow-right"
+                                style="font-size: 2.5rem; color: var(--purple);"></i></div>
+                        <img src="public/true-see/ux_update_after.png" class="img-fluid" alt="UX Update After"
+                            style="max-width: 45%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usability Testing Section -->
+    <section id="testing" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Usability Testing</h2>
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <h3 class="fw-bold mb-4">I collaborated with the product team to align on a <span
+                            class="text-primary">prototype & usability script.</span></h3>
+                    <ul>
+                        <li>Remote usability test using the mid-fidelity prototype in Figma.</li>
+                        <li>Participants walked through real tasks from the usability script.</li>
+                    </ul>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-md-6 text-center mb-3 mb-md-0">
+                            <img src="public/true-see/usability_script.png" class="img-fluid"
+                                alt="Usability Script Screenshot">
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <img src="public/true-see/prototype.png" class="img-fluid rounded"
+                                alt="Usability Test Screenshot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Virtual User Interview Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="mb-4 text-uppercase text-muted fs-6">Usability Testing</h2>
+                    <h3 class="fw-bold mb-4"><span class="text-primary">Three new users </span>were invited to test the
+                        mid-fidelity prototype in Figma.</h3>
+                    <p class="mb-3">Participants walked through the following tasks from the usability script:</p>
+                    <ul>
+                        <li><strong>Taking</strong> photos consecutively</li>
+                        <li><strong>Assigning</strong> photos to patients</li>
+                        <li><strong>Searching</strong> for patients</li>
+                        <li><strong>Analyzing</strong> photos</li>
+                        <li><strong>Sharing</strong> patient information</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="public/true-see/user_interviews.png" class="img-fluid"
+                        alt="Virtual User Interview Screenshot">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aha Moments Section -->
+    <section id="aha-moments" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Aha Moments & Iterations</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">We uncovered <span class="text-primary">friction</span> in photo assignment
+                        &
+                        <span class="text-primary">surprising value</span> in hashtag
+                        filtering.
+                    </h3>
+                    <ul class="mb-4">
+                        <li>🚫 Selecting images to assign was not as intuitive as we initially thought.
+                        </li>
+                        <li>🚫 Unclear where the Share button was.</li>
+                        <li>🚫 Too many steps to get to the Analyze phase.</li>
+                        <li class="mt-3">✅ Adding custom Hashtags to filter by certain data is extremely
+                            useful.</li>
+                        <li>✅ Very clear side-by-side photo analysis.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="public/true-see/aha_moments.png" class="img-fluid rounded" alt="Aha Moments UI">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h3 class="fw-bold mb-4"><span class="text-primary">Image selection</span> was redesigned for
+                        faster, more intuitive use.
+                    </h3>
+                    <h6 class="fw-bold mt-3">Changes</h6>
+                    <ul>
+                        <li>Created a 1-click experience to select images.</li>
+                        <li>Enlarged blue to prioritize each selection.</li>
+                    </ul>
+                    <h6 class="fw-bold mt-3">Trade-Off</h6>
+                    <ul>
+                        <li>No way to click the image to maximize.</li>
+                        <li>"Deselect" was removed as a byproduct.</li>
+                    </ul>
+                </div>
+                <div class="col-12 text-center mt-4">
+                    <img src="public/true-see/ui_iterations.png" class="img-fluid rounded"
+                        alt="UI Iterations Before After">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A/B Testing Section -->
+    <section id="ab-testing" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">A/B Testing</h2>
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="fw-bold mb-4">Due to a smaller user base, we <span class="text-primary">qualitatively
+                            A/B tested</span> features.</h3>
+                </div>
+                <div class="col-12 text-center mt-4">
+                    <img src="public/true-see/ab_testing.png" class="img-fluid rounded" alt="A/B Testing UI">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dev Handoff Section -->
+    <section id="dev-handoff" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Dev Handoff</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">TRUE-See brand colors <span class="text-primary">replaced default
+                            Bootstrap</span> styles.
+                    </h3>
+                    <table class="table table-bordered mt-4">
+                        <thead>
+                            <tr>
+                                <th>TRUE-See Blues</th>
+                                <th>Hex Color Code</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Primary Blue</td>
+                                <td>#2196F3</td>
+                            </tr>
+                            <tr>
+                                <td>Secondary Blue</td>
+                                <td>#00bfff</td>
+                            </tr>
+                            <tr>
+                                <td>Accent Blue</td>
+                                <td>#68b2f8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="public/true-see/theme_colors.png" class="img-fluid rounded" alt="Bootstrap Theme Colors">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 text-center">
+                    <img src="public/true-see/design_annotations.png" class="img-fluid rounded"
+                        alt="Design Annotations">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">Bootstrap class references simplified the implementation.</h3>
+                    <ul>
+                        <li>Designs were annotated with Bootstrap class references to simplify implementation.</li>
+                        <li>Less rework than dealing with 100% custom CSS.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metrics Section -->
+    <section id="metrics" class="py-5" style="background-color: var(--purple);">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-white fs-6">Metrics</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="fw-bold text-white">Although not yet shipped, <span style="color: var(--orange);">KPIs
+                            have already been established.</span></h3>
+                    <ul class="text-white">
+                        <li>Adoption (GTM)</li>
+                        <li>Core Features</li>
+                        <li>Retention</li>
+                        <li>App Performance</li>
+                        <li>Conversions ($$)</li>
+                    </ul>
+                    <p class="mt-3 text-white">Metrics set up & tracked on PostHog <span role="img"
+                            aria-label="hedgehog">🦔</span>
+                    </p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="public/true-see/metrics.png" class="img-fluid rounded" alt="Metrics UI">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Results Section -->
+    <section id="results" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Final Results</h2>
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">Patient lists now allowed for <span class="text-primary">quicker
+                            access</span> to sharing & analyzing photos.
+                    </h3>
+                    <h6 class="fw-bold mt-3">Changes</h6>
+                    <ul>
+                        <li>List groups instead of table rows</li>
+                        <li>CTAs to share & analyze each line item</li>
+                        <li>Ability to Manage patients (Admin)</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="public/true-see/final_1.png" class="img-fluid rounded" alt="Patient List Before After">
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-6 text-center">
+                    <img src="public/true-see/final_2.png" class="img-fluid rounded" alt="Patient Details Before After">
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">Patient profiles now <span class="text-primary">prioritized wound
+                            photos</span>
+                        over general details.</h3>
+                    <h6 class="fw-bold mt-3">Changes</h6>
+                    <ul>
+                        <li>Moved second-tier details into top nav</li>
+                        <li>Ability to take additional photos of an existing wound (bypasses assignment step)</li>
+                        <li>Visually flag any missing patient information</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">Camera GUI brought <span class="text-primary">stronger visual cues</span>
+                        for more a efficient photo-taking
+                        experience.</h3>
+                    <h6 class="fw-bold mt-3">Changes</h6>
+                    <ul>
+                        <li>Swapped QR code overlay with border</li>
+                        <li>Added instructional nudges to align image</li>
+                        <li>Ability to assign, measure, and share immediately</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="public/true-see/final_3.png" class="img-fluid rounded" alt="Camera GUI Before After">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Outcomes & Lessons Section -->
+    <section id="outcomes" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-uppercase text-muted fs-6">Outcomes & Lessons</h2>
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="fw-bold mb-4">Our MVP has proven to provide users with a faster, more efficient way to
+                        <span class="text-primary">capture, share, and analyze photos.</span>
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h6 class="fw-bold mt-4">Key Outcomes & Results</h6>
+                    <ul>
+                        <li>Created a HIPAA-compliant photo capture experience that worked independently of EHR
+                            restrictions.</li>
+                        <li>Reduced the need for reshoots by giving physicians better guidance at the point of capture.
+                        </li>
+                        <li>Enabled faster collaboration between clinics and specialists by standardizing photo quality
+                            and metadata.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="fw-bold mt-4">What I Learned</h6>
+                    <ul>
+                        <li>Healthcare providers need to move very efficiently with the slow & clunky tech they have.
+                        </li>
+                        <li>Even simple features like photo-taking have deep downstream effects on diagnosis timelines.
+                        </li>
+                        <li>Strict processes can't slow physicians down, even if that means risking HIPAA to receive
+                            faster results.</li>
+                        <li>Designing for trust, speed, and context matters just as much as compliance.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: var(--dark-purple);" class="text-light py-4 position-relative">
+        <img src="public/top_curves.png" alt="Top Curves" class="position-absolute top-0 end-0"
+            style="max-width: 400px;">
+        <img src="public/bottom_curves.png" alt="Bottom Curves" class="position-absolute bottom-0 start-0"
+            style="max-width: 400px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-3">Navigation</h3>
+                    <div class="d-flex flex-column align-items-md-start align-items-start">
+                        <a href="about.html" class="text-light mb-2">About Me</a>
+                        <a href="public/Martin_Tejeda_Resume.pdf" class="text-light" target="_blank"
+                            rel="noopener">Resume</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-3 text-md-end">Contact Me</h3>
+                    <div class="d-flex flex-column align-items-md-end align-items-start">
+                        <a href="https://www.linkedin.com/in/mawrs/" class="text-light mb-2" target="_blank"
+                            rel="noopener"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+                        <a href="mailto:hi@martintejeda.com" class="text-light" target="_blank" rel="noopener"><i
+                                class="bi bi-envelope me-2"></i>Email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5 mb-0 pb-0">
+            <img src="public/true-see/footer_logo.png" alt="Footer Image" class="img-fluid" style="max-width: 400px;">
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

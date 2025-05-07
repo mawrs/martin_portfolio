@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Design Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="public/true-see/topnav_logo.png" alt="Logo" class="img-fluid" style="max-width: 150px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="public/Martin_Tejeda_Resume.pdf" target="_blank"
+                            rel="noopener">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5 mt-5"
+        style="background-color: var(--dark-purple); color: white; position: relative; overflow: hidden;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <h1 class="display-4 fw-bold mb-3">Martin Tejeda</h1>
+                    <h4 class="mb-4 text-white">I am a Product Designer & Strategist with 5 years of experience across
+                        early-stage startups & big tech companies.</h4>
+                    <h4 class="mb-4 text-white">I currently <span style="color: var(--orange);">lead design &
+                            strategy
+                            at TRUE-See</span>, a healthtech startup
+                        building smarter tools for capturing, sharing & analyzing clinical photos.</h4>
+                    <div class="d-flex gap-3 mb-4">
+                        <a href="true-see-case-study.html" class="btn btn-primary btn-lg">View Latest Project</a>
+                        <a href="about.html" class="btn btn-outline-light btn-lg">About Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img src="public/main_headshot.png" alt="Profile" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <img src="public/top_curves.png" alt="Decorative curves" class="top-curves-hero" />
+        <img src="public/bottom_curves.png" alt="Decorative curves bottom" class="bottom-curves-hero" />
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="mb-5">Featured Project</h2>
+            <div class="row g-4">
+                <!-- Main Project - TRUE-See -->
+                <div class="col-12">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-md-6">
+                                <img src="public/ts_thumbnail.png" class="img-fluid rounded-start h-100"
+                                    alt="TRUE-See Project">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body h-100 d-flex flex-column">
+                                    <h3 class="card-title">TRUE-See</h3>
+                                    <p class="card-text">A healthtech startup building smarter tools for capturing,
+                                        sharing & analyzing clinical photos. As the sole designer, I led the end-to-end
+                                        UX design & strategy of a new feature to help physicians capture, organize, and
+                                        share clinical images — all while meeting HIPAA compliance and speeding up
+                                        documentation.</p>
+                                    <ul class="list-unstyled mb-4">
+                                        <li><strong>Role:</strong> Sole Product Designer</li>
+                                        <li><strong>Responsibilities:</strong> UX Research, Workflow Mapping, UI Design
+                                        </li>
+                                        <li><strong>Tools:</strong> Figma, Bootstrap, PostHog</li>
+                                    </ul>
+                                    <div class="mt-auto">
+                                        <a href="true-see-case-study.html" class="btn btn-primary btn-lg">View Case
+                                            Study</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Previous Projects Stack -->
+                <div class="col-12 mt-4">
+                    <h4 class="mb-4">Previous Projects</h4>
+                    <div class="row g-4">
+                        <!-- Facebook Project Card -->
+                        <div class="col-md-4">
+                            <div class="card h-100 position-relative">
+                                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-light bg-opacity-75"
+                                    style="z-index: 2;">
+                                    <div class="text-center">
+                                        <i class="bi bi-lock-fill text-dark fs-1"></i>
+                                        <h5 class="mt-2">Contact Me</h5>
+                                    </div>
+                                </div>
+                                <img src="public/facebook_thumbnail.png" class="card-img-top"
+                                    alt="Facebook Project Thumbnail" style="height: 180px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Facebook Project</h5>
+                                    <p class="card-text">Revamping Public Figures on Facebook.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Square Project Card -->
+                        <div class="col-md-4">
+                            <div class="card h-100 position-relative">
+                                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-light bg-opacity-75"
+                                    style="z-index: 2;">
+                                    <div class="text-center">
+                                        <i class="bi bi-lock-fill text-dark fs-1"></i>
+                                        <h5 class="mt-2">Contact Me</h5>
+                                    </div>
+                                </div>
+                                <img src="public/square_thumbnail.png" class="card-img-top"
+                                    alt="Square Project Thumbnail" style="height: 180px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Square Project</h5>
+                                    <p class="card-text">Enhancing Square's Email Security
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Arcoscan Project Card -->
+                        <div class="col-md-4">
+                            <div class="card h-100 position-relative">
+                                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-light bg-opacity-75"
+                                    style="z-index: 2;">
+                                    <div class="text-center">
+                                        <i class="bi bi-lock-fill text-dark fs-1"></i>
+                                        <h5 class="mt-2">Contact Me</h5>
+                                    </div>
+                                </div>
+                                <img src="public/arcoscan.png" class="card-img-top" alt="Arcoscan Project Thumbnail"
+                                    style="height: 180px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">Arcoscan Project</h5>
+                                    <p class="card-text">Productizing Biometric Age Veritication Technology.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <p class="mb-3">Interested in seeing more work? <a href="mailto:hi@martintejeda.com">Contact
+                                me</a> to view older case studies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Testimonials</h2>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="public/terri.jpeg" class="rounded-circle mb-3" width="80" height="80"
+                                alt="Terri Bedel">
+                            <blockquote class="blockquote mb-3">
+                                <p>"Martin's approach to user-centric design is innovative and creates a stellar
+                                    experience for our end users."</p>
+                            </blockquote>
+                            <footer class="blockquote-footer">Terri Radke, <cite title="Meta">Design Director,
+                                    Facebook</cite>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="public/bryan.jpeg" class="rounded-circle mb-3" width="80" height="80"
+                                alt="Bryan Rees">
+                            <blockquote class="blockquote mb-3">
+                                <p>"You improved product quality and flow through careful study of user behavior and
+                                    creative problem-solving."</p>
+                            </blockquote>
+                            <footer class="blockquote-footer">Bryan Evans, <cite title="Square">Product Manager,
+                                    Square</cite>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <img src="public/anthony.jpeg" class="rounded-circle mb-3" width="80" height="80"
+                                alt="Anthony Lagoon">
+                            <blockquote class="blockquote mb-3">
+                                <p>"Martin demonstrated excellent product thinking and was a true team player during our
+                                    work together."</p>
+                            </blockquote>
+                            <footer class="blockquote-footer">Anthony Lagoon, <cite title="UX University">CEO, UX
+                                    University</cite>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: var(--dark-purple);" class="text-light py-4 position-relative">
+        <img src="public/top_curves.png" alt="Top Curves" class="position-absolute top-0 end-0"
+            style="max-width: 400px;">
+        <img src="public/bottom_curves.png" alt="Bottom Curves" class="position-absolute bottom-0 start-0"
+            style="max-width: 400px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-3">Navigation</h3>
+                    <div class="d-flex flex-column align-items-md-start align-items-start">
+                        <a href="about.html" class="text-light mb-2">About Me</a>
+                        <a href="public/Martin_Tejeda_Resume.pdf" class="text-light" target="_blank"
+                            rel="noopener">Resume</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-3 text-md-end">Contact Me</h3>
+                    <div class="d-flex flex-column align-items-md-end align-items-start">
+                        <a href="https://www.linkedin.com/in/mawrs/" class="text-light mb-2" target="_blank"
+                            rel="noopener"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+                        <a href="mailto:hi@martintejeda.com" class="text-light" target="_blank" rel="noopener"><i
+                                class="bi bi-envelope me-2"></i>Email</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-5 mb-0 pb-0">
+            <img src="public/true-see/footer_logo.png" alt="Footer Image" class="img-fluid" style="max-width: 400px;">
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
